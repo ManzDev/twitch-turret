@@ -6,26 +6,26 @@ const rightPart = document.querySelector(".body-container .right.part");
 const iris = document.querySelector(".iris");
 const sounds = {
   turretFire: new Howl({
-    src: ["/turret-fire.ogg"],
+    src: ["turret-fire.ogg"],
     loop: true
   }),
   turretHola: new Howl({
-    src: ["/turret-hola.mp3"]
+    src: ["turret-hola.mp3"]
   }),
   turretHayAlguienAhi: new Howl({
-    src: ["/turret-hay-alguien-ahi.mp3"]
+    src: ["turret-hay-alguien-ahi.mp3"]
   }),
   turretHoraDeLaSiesta: new Howl({
-    src: ["/turret-hora-de-la-siesta.mp3"]
+    src: ["turret-hora-de-la-siesta.mp3"]
   }),
   turretModoSiestaActivo: new Howl({
-    src: ["/turret-modo-siesta-activo.mp3"]
+    src: ["turret-modo-siesta-activo.mp3"]
   }),
   fxDespliegue: new Howl({
-    src: ["/turret-fx-despliegue.mp3"]
+    src: ["turret-fx-despliegue.mp3"]
   }),
   fxCierre: new Howl({
-    src: ["/turret-cierre.mp3"]
+    src: ["turret-cierre.mp3"]
   })
 };
 
